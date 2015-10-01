@@ -1,7 +1,7 @@
 {
 	"name": "NodejsStarterApp",
 	"version": "0.0.1",
-	"description": "A sample nodejs app for Bluemix",
+	"description": "Acessibilidade",
 	"scripts": {
 		"start": "node app.js"
 	},

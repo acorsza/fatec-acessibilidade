@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Acessibilidade - Powered by Watson</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="letWatsonRockYourWorld()">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Acessibilidade</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#quem_somos">Quem somos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contato">Contato</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#leitura">Leitura</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html">Voltar</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Bem-vindo ao Acessibilidade</h1>
+                    <h4>Esta aplicação utiliza recursos de computação cognitiva para tornar sites mais acessíveis.</h4> 
+                    <br />
+                    <br />
+                    Este é um projeto que faz parte da palestra "Usando o IBM Watson Speech To Text Solution para Acessibilidade" desenvolvida pelos alunos do curso de Gestão da Tecnologia da Informação: Aderlei Filho e Victor Bitelman. Este trabalho tem como objetivo mostrar como a computação cognitiva pode contribuir para o desenvolvimento de sistemas mais acessíveis. </p>
+                    <br />
+                    <h4>Vamos começar? Diga: "Watson, clicar Ir para a próxima seção"</h4>
+                    <br />
+                    <br />
+                    
+                    <a class="btn btn-default page-scroll" href="#quem_somos">Ir para próxima seção</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="quem_somos" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Quem somos</h1>
+                        <h4>Legal né?</h4>
+                        <h5>Já parou para pensar na quantidade de soluções que a computação pode te ajudar a criar?</h5>
+                        <p class="text-justify">
+                            O Acessibilidade é uma prova de conceito de que a tecnologia pode ajudar e muito a vida das pessoas. Com o uso de computação cognitiva, utilizamos os serviços do supercomputador da IBM Watson para receber comandos de voz que vão ajudar o usuário deste site a navegar sem a necessidade de utilizar o mouse ou teclado. Quer saber como?
+                            <br />
+                            <br />
+                            <br />
+                            <h3>Diga: "Watson, continuar lendo."</h3>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="contato" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contato</h1>
+                    <h4>Hora de fazer algo realmente legal.</h4>
+                    <p class="text-center">
+                        Já imaginou preencher formulários somente com comandos de voz? Desde que você não tenha um nome estranho como Aderlei, isso é perfeitamente possível com o Watson. 
+
+                        <br />
+                        Utilize o seguinte padrão: "Watson, preencher {nome do campo que deseja preencher} {valor que deseja atribuir}".
+
+                        <br />
+                        <h4>Por exemplo, diga: "Watson, preencher nome Vitor"</h4>
+                        <br />
+
+                        <div>   
+                            <form class="form-horizontal" role="form" method="post" action="index.php">
+                            <div class="form-group">
+                                <label for="nome" class="col-sm-4 control-label">Nome</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sobrenome" class="col-sm-4 control-label">Sobrenome</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Sobrenome" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-4 control-label">Email</label>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="exemplo@fatec.sp.gov.br" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem" class="col-sm-4 control-label">Mensagem</label>
+                                <div class="col-sm-6">
+                                    <textarea class="form-control" rows="3" name="mensagem"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 col-sm-offset-4">
+                                    <! Will be used to display an alert to the user>
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="leitura" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Leitura</h1>
+                    <p class="text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nisl sagittis, convallis diam id, scelerisque nisl. Nunc blandit enim imperdiet, lobortis odio eget, pellentesque dolor. Curabitur elit dui, commodo non sapien ut, efficitur auctor massa. Phasellus nec dolor posuere, posuere mauris nec, efficitur ante. Cras id ultricies dolor. Donec interdum purus vitae metus elementum dictum. Donec est quam, eleifend a lorem nec, eleifend pulvinar ante. Aenean at libero sit amet neque convallis semper.
+                        </p>
+                        <p class="text-justify">
+                            Duis blandit tempor egestas. Quisque mollis et mauris vitae auctor. Nunc auctor tellus eu lectus mattis, et viverra tortor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi bibendum quam ac nulla condimentum iaculis. Phasellus porttitor sagittis tortor id ultricies. Nam in sem porta, laoreet elit quis, rhoncus velit. Donec ut arcu eros. Morbi et condimentum libero, in interdum purus. Vivamus metus nulla, cursus eget nulla sed, dapibus aliquam lectus. Pellentesque odio nisl, gravida at nisi ac, facilisis lacinia ante. Duis imperdiet gravida libero, quis maximus libero pulvinar non. Integer ligula magna, malesuada eget nisi ut, luctus rutrum metus. Duis efficitur nisl non purus lobortis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur finibus mi ligula, nec ornare eros cursus quis.
+                        </p>
+                        <p class="text-justify">
+                            Pellentesque a nisi lacinia, porta quam in, hendrerit mi. Donec vel tellus rutrum augue laoreet auctor ut sed nibh. Suspendisse egestas bibendum risus, ut maximus lectus sollicitudin non. Integer varius neque et libero porttitor, ut ornare erat iaculis. Fusce leo mi, ultrices pellentesque ornare in, finibus sed libero. Etiam consequat mauris ut vehicula ullamcorper. Maecenas vestibulum rutrum dictum. Morbi eu eleifend leo.
+                        </p>
+                        <p class="text-justify">
+                            Duis blandit tempor egestas. Quisque mollis et mauris vitae auctor. Nunc auctor tellus eu lectus mattis, et viverra tortor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi bibendum quam ac nulla condimentum iaculis. Phasellus porttitor sagittis tortor id ultricies. Nam in sem porta, laoreet elit quis, rhoncus velit. Donec ut arcu eros. Morbi et condimentum libero, in interdum purus. Vivamus metus nulla, cursus eget nulla sed, dapibus aliquam lectus. Pellentesque odio nisl, gravida at nisi ac, facilisis lacinia ante. Duis imperdiet gravida libero, quis maximus libero pulvinar non. Integer ligula magna, malesuada eget nisi ut, luctus rutrum metus. Duis efficitur nisl non purus lobortis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur finibus mi ligula, nec ornare eros cursus quis.
+                        </p>
+                        <p class="text-justify">
+                            Pellentesque a nisi lacinia, porta quam in, hendrerit mi. Donec vel tellus rutrum augue laoreet auctor ut sed nibh. Suspendisse egestas bibendum risus, ut maximus lectus sollicitudin non. Integer varius neque et libero porttitor, ut ornare erat iaculis. Fusce leo mi, ultrices pellentesque ornare in, finibus sed libero. Etiam consequat mauris ut vehicula ullamcorper. Maecenas vestibulum rutrum dictum. Morbi eu eleifend leo.
+                        </p>
+                        <p class="text-justify">
+                            Duis blandit tempor egestas. Quisque mollis et mauris vitae auctor. Nunc auctor tellus eu lectus mattis, et viverra tortor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi bibendum quam ac nulla condimentum iaculis. Phasellus porttitor sagittis tortor id ultricies. Nam in sem porta, laoreet elit quis, rhoncus velit. Donec ut arcu eros. Morbi et condimentum libero, in interdum purus. Vivamus metus nulla, cursus eget nulla sed, dapibus aliquam lectus. Pellentesque odio nisl, gravida at nisi ac, facilisis lacinia ante. Duis imperdiet gravida libero, quis maximus libero pulvinar non. Integer ligula magna, malesuada eget nisi ut, luctus rutrum metus. Duis efficitur nisl non purus lobortis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur finibus mi ligula, nec ornare eros cursus quis.
+                        </p>
+                        <p class="text-justify">
+                            Pellentesque a nisi lacinia, porta quam in, hendrerit mi. Donec vel tellus rutrum augue laoreet auctor ut sed nibh. Suspendisse egestas bibendum risus, ut maximus lectus sollicitudin non. Integer varius neque et libero porttitor, ut ornare erat iaculis. Fusce leo mi, ultrices pellentesque ornare in, finibus sed libero. Etiam consequat mauris ut vehicula ullamcorper. Maecenas vestibulum rutrum dictum. Morbi eu eleifend leo.
+                        </p>
+                        <p class="text-justify">
+                            Duis blandit tempor egestas. Quisque mollis et mauris vitae auctor. Nunc auctor tellus eu lectus mattis, et viverra tortor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi bibendum quam ac nulla condimentum iaculis. Phasellus porttitor sagittis tortor id ultricies. Nam in sem porta, laoreet elit quis, rhoncus velit. Donec ut arcu eros. Morbi et condimentum libero, in interdum purus. Vivamus metus nulla, cursus eget nulla sed, dapibus aliquam lectus. Pellentesque odio nisl, gravida at nisi ac, facilisis lacinia ante. Duis imperdiet gravida libero, quis maximus libero pulvinar non. Integer ligula magna, malesuada eget nisi ut, luctus rutrum metus. Duis efficitur nisl non purus lobortis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur finibus mi ligula, nec ornare eros cursus quis.
+                        </p>
+                        <p class="text-justify">
+                            Pellentesque a nisi lacinia, porta quam in, hendrerit mi. Donec vel tellus rutrum augue laoreet auctor ut sed nibh. Suspendisse egestas bibendum risus, ut maximus lectus sollicitudin non. Integer varius neque et libero porttitor, ut ornare erat iaculis. Fusce leo mi, ultrices pellentesque ornare in, finibus sed libero. Etiam consequat mauris ut vehicula ullamcorper. Maecenas vestibulum rutrum dictum. Morbi eu eleifend leo.
+                        </p>
+                        <p class="text-justify">
+                            Duis blandit tempor egestas. Quisque mollis et mauris vitae auctor. Nunc auctor tellus eu lectus mattis, et viverra tortor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi bibendum quam ac nulla condimentum iaculis. Phasellus porttitor sagittis tortor id ultricies. Nam in sem porta, laoreet elit quis, rhoncus velit. Donec ut arcu eros. Morbi et condimentum libero, in interdum purus. Vivamus metus nulla, cursus eget nulla sed, dapibus aliquam lectus. Pellentesque odio nisl, gravida at nisi ac, facilisis lacinia ante. Duis imperdiet gravida libero, quis maximus libero pulvinar non. Integer ligula magna, malesuada eget nisi ut, luctus rutrum metus. Duis efficitur nisl non purus lobortis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur finibus mi ligula, nec ornare eros cursus quis.
+                        </p>
+                        <p class="text-justify">
+                            Pellentesque a nisi lacinia, porta quam in, hendrerit mi. Donec vel tellus rutrum augue laoreet auctor ut sed nibh. Suspendisse egestas bibendum risus, ut maximus lectus sollicitudin non. Integer varius neque et libero porttitor, ut ornare erat iaculis. Fusce leo mi, ultrices pellentesque ornare in, finibus sed libero. Etiam consequat mauris ut vehicula ullamcorper. Maecenas vestibulum rutrum dictum. Morbi eu eleifend leo.
+                        </p>
+                        <p class="text-justify">
+                            Duis blandit tempor egestas. Quisque mollis et mauris vitae auctor. Nunc auctor tellus eu lectus mattis, et viverra tortor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi bibendum quam ac nulla condimentum iaculis. Phasellus porttitor sagittis tortor id ultricies. Nam in sem porta, laoreet elit quis, rhoncus velit. Donec ut arcu eros. Morbi et condimentum libero, in interdum purus. Vivamus metus nulla, cursus eget nulla sed, dapibus aliquam lectus. Pellentesque odio nisl, gravida at nisi ac, facilisis lacinia ante. Duis imperdiet gravida libero, quis maximus libero pulvinar non. Integer ligula magna, malesuada eget nisi ut, luctus rutrum metus. Duis efficitur nisl non purus lobortis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur finibus mi ligula, nec ornare eros cursus quis.
+                        </p>
+                        <p class="text-justify">
+                            Pellentesque a nisi lacinia, porta quam in, hendrerit mi. Donec vel tellus rutrum augue laoreet auctor ut sed nibh. Suspendisse egestas bibendum risus, ut maximus lectus sollicitudin non. Integer varius neque et libero porttitor, ut ornare erat iaculis. Fusce leo mi, ultrices pellentesque ornare in, finibus sed libero. Etiam consequat mauris ut vehicula ullamcorper. Maecenas vestibulum rutrum dictum. Morbi eu eleifend leo.
+                        </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/media.js"></script>
+
+</body>
+
+</html>
