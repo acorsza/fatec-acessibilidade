@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Acessibilidade - Powered by Watson</title>
+    <title>Acessibilidade - Enhanced with Watson</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,13 +23,20 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/scut.js"></script>
 
+    <script type="text/javascript">
+        function sendForm() {
+            var nome = document.getElementsByName("nome");
+            alert("Obrigado pelo seu contato " + nome[0].value + ". Seu formulário foi enviado com sucesso.");
+        }
+    </script>
 
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="letWatsonRockYourWorld()">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="init()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -81,11 +88,11 @@
                     <br />
                     Este é um projeto que faz parte da palestra "Usando o IBM Watson Speech To Text Solution para Acessibilidade" desenvolvida pelos alunos do curso de Gestão da Tecnologia da Informação: Aderlei Filho e Victor Bitelman. Este trabalho tem como objetivo mostrar como a computação cognitiva pode contribuir para o desenvolvimento de sistemas mais acessíveis. </p>
                     <br />
-                    <h4>Vamos começar? Diga: "Watson, clicar Ir para a próxima seção"</h4>
+                    <h4>Vamos começar? Diga: "clicar Ir para Quem Somos"</h4>
                     <br />
                     <br />
                     
-                    <a class="btn btn-default page-scroll" href="#quem_somos">Ir para próxima seção</a>
+                    <a class="btn btn-default page-scroll" href="#quem_somos">Ir para Quem somos</a>
 
                 </div>
             </div>
@@ -105,7 +112,7 @@
                             <br />
                             <br />
                             <br />
-                            <h3>Diga: "Watson, continuar lendo."</h3>
+                            <h3>Diga: "Continuar lendo."</h3>
                         </p>
                 </div>
             </div>
@@ -123,10 +130,10 @@
                         Já imaginou preencher formulários somente com comandos de voz? Desde que você não tenha um nome estranho como Aderlei, isso é perfeitamente possível com o Watson. 
 
                         <br />
-                        Utilize o seguinte padrão: "Watson, preencher {nome do campo que deseja preencher} {valor que deseja atribuir}".
+                        Utilize o seguinte padrão: "Preencher {nome do campo que deseja preencher} {valor que deseja atribuir}".
 
                         <br />
-                        <h4>Por exemplo, diga: "Watson, preencher nome Vitor"</h4>
+                        <h4>Por exemplo, diga: "Preencher nome Vitor"</h4>
                         <br />
 
                         <div>   
@@ -146,18 +153,18 @@
                             <div class="form-group">
                                 <label for="email" class="col-sm-4 control-label">Email</label>
                                 <div class="col-sm-6">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="exemplo@fatec.sp.gov.br" value="">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="e-mail" value="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="mensagem" class="col-sm-4 control-label">Mensagem</label>
                                 <div class="col-sm-6">
-                                    <textarea class="form-control" rows="3" name="mensagem"></textarea>
+                                    <textarea class="form-control" rows="3" name="mensagem" placeholder="Mensagem"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-6 col-sm-offset-3">
-                                    <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+                                    <button id="submit" name="submit" type="submit" class="btn btn-primary" onclick="sendForm()">Enviar</button>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -233,7 +240,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script src="js/main.js"></script>
+    
 
 </body>
 
