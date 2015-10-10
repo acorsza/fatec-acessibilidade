@@ -3,11 +3,15 @@
 var voiceCommands = {
   "pt-BR" : {
     click : "clicar",
-    fill : "preencher"
+    fill : "preencher",
+    up : "subir",
+    down : "descer"
   },
   "en-US" : {
     click : "click",
-    fill : "fill"
+    fill : "fill",
+    up : "up",
+    down : "down"
   }
 };
 
@@ -49,6 +53,8 @@ function init() {
     switch ( command ) {
       case voiceCommands[config.lang].click : { click ( value ); break; };
       case voiceCommands[config.lang].fill : { fill ( value ); break; };
+      case voiceCommands[config.lang].up : { scroll ( -1 ); break; };
+      case voiceCommands[config.lang].down : { scroll ( 1 ); break; };
       default: null;
     }
   };
@@ -73,6 +79,8 @@ function getCommand ( voiceCommand ) {
 
 function click ( args ) {
   console.log(" scut.js :: click ");
+
+  args = args;
 
   var buttonName = null, 
       input = null,
@@ -106,7 +114,7 @@ function click ( args ) {
     if ( fields[field] !== undefined ) {
       if ( (fields[field].type !== undefined 
         && fields[field].type === "submit" 
-        && fields[field].onclick() !== undefined ) 
+        && fields[field].onclick !== undefined ) 
           || ( fields[field].onclick !== undefined && fields[field].onclick !== null ) ) {
         if (buttonName.toLowerCase() === buttonToCompare.toLowerCase()) {
           fields[field].onclick();
@@ -156,4 +164,19 @@ function fill ( args ) {
       break;
     }
   }
+}
+
+function scroll (direction) {
+    window.scrollBy(0, 500 * direction);
+}
+
+function removeSingleLetters( args ) {
+  console.log(" scut.js :: removeSingleLetters ");
+
+  args = args.split(" ");
+  if ( args[0].length <= 2 ) {
+    args.splice(1, 1);
+  }
+  args = args.toString().replace(/,/g, " ");
+  return args;
 }
