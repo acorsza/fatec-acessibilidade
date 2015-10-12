@@ -7,7 +7,8 @@ var voiceCommands = {
     up : "subir",
     down : "descer",
     top : "início",
-    bottom : "final"
+    bottom : "final",
+    finish : "finalizar"
   },
   "en-US" : {
     click : "click",
@@ -15,7 +16,8 @@ var voiceCommands = {
     up : "up",
     down : "down",
     top : "top",
-    bottom : "bottom"
+    bottom : "bottom",
+    finish : "finish"
   }
 };
 
@@ -61,6 +63,7 @@ function init() {
       case voiceCommands[config.lang].down : { scroll ( 1 ); break; };
       case voiceCommands[config.lang].top : { extremity ( -1 ); break; };
       case voiceCommands[config.lang].bottom : { extremity ( 1 ); break; };
+      case voiceCommands[config.lang].finish : { redirect (); break; };
       default: null;
     }
   };
@@ -178,6 +181,10 @@ function scroll (direction) {
 
 function extremity (direction) {
     window.scrollBy(0, 50000 * direction);
+}
+
+function redirect () {
+  window.location.replace('https://acessibilidade.mybluemix.net/thanks.html');
 }
 
 function removeSingleLetters( args ) {
