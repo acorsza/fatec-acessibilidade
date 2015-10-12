@@ -5,13 +5,17 @@ var voiceCommands = {
     click : "clicar",
     fill : "preencher",
     up : "subir",
-    down : "descer"
+    down : "descer",
+    top : "início",
+    bottom : "final"
   },
   "en-US" : {
     click : "click",
     fill : "fill",
     up : "up",
-    down : "down"
+    down : "down",
+    top : "top",
+    bottom : "bottom"
   }
 };
 
@@ -55,6 +59,8 @@ function init() {
       case voiceCommands[config.lang].fill : { fill ( value ); break; };
       case voiceCommands[config.lang].up : { scroll ( -1 ); break; };
       case voiceCommands[config.lang].down : { scroll ( 1 ); break; };
+      case voiceCommands[config.lang].top : { extremity ( -1 ); break; };
+      case voiceCommands[config.lang].bottom : { extremity ( 1 ); break; };
       default: null;
     }
   };
@@ -168,6 +174,10 @@ function fill ( args ) {
 
 function scroll (direction) {
     window.scrollBy(0, 500 * direction);
+}
+
+function extremity (direction) {
+    window.scrollBy(0, 50000 * direction);
 }
 
 function removeSingleLetters( args ) {
