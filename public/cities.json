@@ -1,0 +1,37 @@
+{
+	"cities": [
+			   {
+			   "code": "CUN",
+			   "name": "Cancun",
+			   "country": "Mexico",
+			   "image": "bg_cancun",
+			   "summary": "Cancun is a tropical paradise in the Mexican Caribbean renowned for unspoiled powder-white beaches, soothing aquamarine seas, and remnants of mystic Indian civilizations. There are a variety of activities to enjoy in or near Cancun, which includes diving, snorkeling, water-skiing, deep-sea fishing, biking, golf and tennis. A visit to the legendary archaeological sites should not be missed. Experience the magic Cancun has to offer...past and present.",
+			   "coordinates": {
+			   "lat": 21.16,
+			   "long": -86.83,
+			   }
+			   },
+			   {
+			   "code": "FEN",
+			   "name": "Noronha",
+			   "country": "Brazil",
+			   "image": "bg_fernandodenoronha",
+			   "summary": "Fernando de Noronha is an archipelago of 21 islands and islets in the Atlantic Ocean, 354 km (220 mi) offshore from the Brazilian coast. The archipelago got its name from the Portuguese merchant Fernão de Noronha, to whom it was given by the Portuguese crown for services rendered regarding wood imported from Brazil. The main island has an area of 18.4 square kilometres (7.1 sq mi) and had a population estimated at 2,718 in 2012.[1] The area is a special municipality (distrito estadual) of the Brazilian state of Pernambuco (despite being closer to the state of Rio Grande do Norte),[2] with about 70% established in 1988 as a national maritime park.",
+			   "coordinates": {
+			   "lat": -3.85,
+			   "long": -32.42
+			   }
+			   },
+			   {
+			   "code": "ORY",
+			   "name": "Paris",
+			   "country": "France",
+			   "image": "bg_paris",
+			   "summary": "Paris can be seen as thé most interesting city of Europe and probably even as one of the most amazing city’s worldwide. People from all over the world travel to Paris to discover and experience this fairy-like city. Paris is the city of love, inspiration, art and fashion. The night scene, the Eiffel tower and the warm atmosphere will make you feel directly at home. Paris has a lot of interesting architecture and museums to offer, and is also a Walhalla for shopaholics. A city as Paris is one that everyone should visit and experience.",
+			   "coordinates": {
+			   "lat": 48.72,
+			   "long": 2.36
+			   }
+			   }
+			   ]
+}

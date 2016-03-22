@@ -1,0 +1,138 @@
+{
+	"hotels": [
+			   {
+			   "cityCode": "CUN",
+			   "name": "Hyatt Zilara",
+			   "image": "cel_hotelcancun1",
+			   "largeImage": "photo_hotelcancun1_A",
+			   "summary": "With breathtaking views of the Caribbean Sea, this adults-only all-inclusive resort and spa features endless activities and entertainment, luxurious accommodations and personalized services. The Hyatt Zilara Cancun offers everything needed for a memorable stay. Guests can enjoy everything from introductory scuba diving lessons to craft-making and wine tasting classes, to on-site tennis instructors and diving lessons. There is always something to do at the Hyatt Zilara Cancun. With live nightly entertainment, an on-site library, themed parties and cultural shows, there is something for everyone.",
+			   "services": "Room Service | Fitness Center with Gym / Workout Room | Pool | Beach | Restaurant | Free Parking | Spa | Free High Speed Internet ( WiFi ) | Bar/Lounge | Free Breakfast",
+			   "coordinates": {
+			   "lat": 23.02,
+			   "long": 72.57
+			   },
+			   "price": 189,
+			   "rate": 5,
+			   "oldPrices": [ 230,290,150,85,200,350,380,378,401,300,275,400 ]
+			   },
+			   {
+			   "cityCode": "CUN",
+			   "name": "Live Aqua Cancun",
+			   "image": "cel_hotelcancun2",
+			   "largeImage": "photo_hotelcancun2_A",
+			   "summary": "Offering direct access to Cancún Beach, Live Aqua Cancun - All Inclusive Adults Only features an outdoor swimming pool overlooking the Caribbean Sea. It has attractive rooms with balconies, 9 restaurants, 5 bars and a spa. Each spacious, air-conditioned room at the Live Aqua Cancun has stylish décor with tiled floors. All rooms include a TV, coffee maker, aromatherapy products, a safety-deposit box and a minibar which is refilled daily. The stylish Siete Restaurant serves a range of Mexican cuisine, while European and Asian dishes are on offer in the mb Restaurant. The Azur serves international options set by the pool and overlooking the sea.",
+			   "services": "Restaurant | Fitness Center with Gym / Workout Room | Pool | Room Service | Free Parking | Bar/Lounge | Beach | Spa | Free High Speed Internet ( WiFi )",
+			   "coordinates": {
+			   "lat": 21.1,
+			   "long": -86.76
+			   },
+			   "price": 439,
+			   "rate": 5,
+			   "oldPrices": [ 90,200,135,428,130,287,454,351,298,399,422,421 ]
+			   },
+			   {
+			   "cityCode": "CUN",
+			   "name": "The Royal Caribbean",
+			   "image": "cel_hotelcancun3",
+			   "largeImage": "photo_hotelcancun3_A",
+			   "summary": "This stylish resort has a private beach on the Caribbean coast and a marina on the Nichupté Lagoon. It offers outdoor pools and elegant rooms and suites with panoramic views. The Royal Caribbean - An All Suites Resort offers free kayaks and sailing on the lagoon. There is an on-site tennis school and a watersports centre offering PADI scuba diving courses. Each air-conditioned room includes free WiFi, flat-screen cable TV, a minibar and coffee maker, while suites also have a full kitchen. All include mahogany furniture and original artwork. The Royal Caribbean - An All Suites Resort is located in the Cancun Hotel Zone, 12 km from Cancun Airport. A free shuttle connects the resort with sister resorts.",
+			   "services": "Pool | Beach | Fitness Center with Gym / Workout Room | Free Parking | Free High Speed Internet ( WiFi ) | Restaurant | Room Service | Bar/Lounge",
+			   "coordinates": {
+			   "lat": 21.03,
+			   "long": -86.87
+			   },
+			   "price": 184,
+			   "rate": 4,
+			   "oldPrices": [ 20,112,110,100,190,180,102,94,189,190,112,170 ]
+			   },
+			   {
+			   "cityCode": "FEN",
+			   "name": "Pousada da Germana",
+			   "image": "cel_fernandodenoronha1",
+			   "largeImage": "photo_hotelfernando1_A",
+			   "summary": "Pousada da Germana is located in Fernando de Noronha and offers charming rooms. Surrounded by rich vegetation, it offers airport shuttle. Set in a great location, restaurants, bars and shops are easily found within 100 metres, as well as plenty of transport options. Air-conditioned rooms at Germana Pousada come with a balcony. The private bathroom also comes with a shower. Extras include a terrace, a minibar and a satellite TV. Guests can enjoy a buffet breakfast daily in the breakfast room. It includes a variety of fresh fruits, breads and cold meats, as well as a selection of hot and cold drinks.",
+			   "services": "Beach | Free Parking | Free High Speed Internet ( WiFi ) | Free Breakfast",
+			   "coordinates": {
+			   "lat": 23.02,
+			   "long": 72.57
+			   },
+			   "price": 145,
+			   "rate": 4,
+			   "oldPrices": [ 168,112,110,135,120,98,102,94,110,116,112,120 ]
+			   },
+			   {
+			   "cityCode": "FEN",
+			   "name": "Pousada do Eli",
+			   "image": "cel_fernandodenoronha2",
+			   "largeImage": "photo_hotelfernando2_A",
+			   "summary": "Just 150 m from Praia do Cachorro Beach, Pousada do Eli offers rooms with air conditioning, a daily breakfast and 24-hour front desk service. A Lan house, restaurants and shops can be found 100 m away. All rooms at Pousada do Eli feature a patio and a garden view. Simply styled with tiled floors, they contain an LCD TV, a minibar and a private bathroom. Guests can enjoy a buffet breakfast each morning in the breakfast room. It includes a variety of fresh fruits, breads and cold meats, as well as a selection of hot and cold drinks.",
+			   "services": "Air Conditioning | Minibar",
+			   "coordinates": {
+			   "lat": 21.1,
+			   "long": -86.76
+			   },
+			   "price": 135,
+			   "rate": 4,
+			   "oldPrices": [ 120,91,110,100,140,96,102,90,89,108,122,120 ]
+			   },
+			   {
+			   "cityCode": "FEN",
+			   "name": "Flamboyant Residence",
+			   "image": "cel_fernandodenoronha3",
+			   "largeImage": "photo_hotelfernando3_A",
+			   "summary": "Flamboyant Residence is a modern, eco-friendly guesthouse located 10 m from Bosque Flamboyant Park in Fernando de Noronha. It offers free Wi-Fi, free airport shuttle and a breakfast buffet. The air-conditioned rooms at Flamboyant Residence come with a flat-screen TV and ample wardrobes. They come with a minibar, telephone and a private bathroom with a solar-powered shower. Guests can enjoy a buffet breakfast each morning in the breakfast room. It includes a variety of fresh fruits, breads and cold meats, as well as a selection of hot and cold drinks.",
+			   "services": "Restaurant | Free High Speed Internet ( WiFi )",
+			   "coordinates": {
+			   "lat": 21.03,
+			   "long": -86.87
+			   },
+			   "price": 171,
+			   "rate": 4,
+			   "oldPrices": [ 120,112,110,100,90,96,102,94,89,98,112,120 ]
+			   },
+			   {
+			   "cityCode": "ORY",
+			   "name": "Garden-Elysée",
+			   "image": "cel_hotelparis1",
+			   "largeImage": "photo_hotelparis1_A",
+			   "summary": "This hotel is across from the Trocadero Gardens between the Eiffel Tower and the Arc de Triomphe. Free Wi-Fi access and a flat-screen TV with satellite channels are provided in each room. Rooms at the Garden Elysée are air-conditioned and have a private bathroom. They each have large windows with views of the grounds. Breakfast can be delivered to guests’ rooms or selected from the buffet and taken on the patio. Guests can also enjoy a drink from the bar beside one of the 2 fireplaces or in the conservatory. In summer, the patio is filled with flowering plants. Boissière Metro station is less than 183 m away, and provides access to the city's main attractions, including the Champs Elysées.",
+			   "services": "Room Service | Fitness Center with Gym / Workout Room | Bar/Lounge | Free High Speed Internet ( WiFi )",
+			   "coordinates": {
+			   "lat": 23.02,
+			   "long": 72.57
+			   },
+			   "price": 206,
+			   "rate": 4,
+			   "oldPrices": [ 211,112,234,100,207,200,102,240,190,187,210,260 ]
+			   },
+			   {
+			   "cityCode": "ORY",
+			   "name": "Hôtel Westminster",
+			   "image": "cel_hotelparis2",
+			   "largeImage": "photo_hotelparis2_A",
+			   "summary": "Hotel Westminster is in central Paris, between the Place Vendôme and Opéra. It offers individually decorated rooms with antique furniture, and a well-being center with sauna and massage and beauty treatments. All rooms at the Westminster have a collection of antique clocks, marble fireplaces and classic artwork. They come with satellite TV and free Wi-Fi. The private bathrooms include bathrobes and slippers. Le Céladon restaurant offers creative, gourmet cuisine and breakfast served in the rustic dining area. The Duke’s bar plays live music in the evening and offers light meals and cocktails. The state-of-the-art fitness center, with its sauna and steam room, overlooks the Parisian rooftops. Massages and beauty treatments are also available upon request.",
+			   "services": "Fitness Center with Gym / Workout Room | Room Service | Restaurant | Bar/Lounge | Free High Speed Internet ( WiFi ) | Spa",
+			   "coordinates": {
+			   "lat": 21.1,
+			   "long": -86.76
+			   },
+			   "price": 222,
+			   "rate": 4,
+			   "oldPrices": [ 290,270,180,210,200,190,192,190,213,216,230,260 ]
+			   },
+			   {
+			   "cityCode": "ORY",
+			   "name": "Helzear Champs Elysées Suites",
+			   "image": "cel_hotelparis3",
+			   "largeImage": "photo_hotelparis3_A",
+			   "summary": "In Paris, Helzear Champs Elysées is a 6-minute walk from the Arc de Triomphe and a 22-minute walk from the Eiffel Tower. It features a fitness room, a 24-hour front desk and and accommodations with kitchen facilities and free Wi-Fi. Apartments and studios are accessible by an elevator and feature air conditioning, a flat-screen TV with cable channels and a bathroom with a bathtub or shower. A refrigerator, a Nespresso coffee machine and a microwave are provided in each accommodations type. There is also a stove, a minibar and kitchenware. Helzear Champs Elysées is a 5-minute walk from the Champs-Elysées Avenue and just under half a kilometer from the Seine River. An airport shuttle service can be arranged for an extra fee.",
+			   "services": "Free High Speed Internet ( WiFi ) | Room Service | Fitness Center with Gym / Workout Room",
+			   "coordinates": {
+			   "lat": 21.03,
+			   "long": -86.87
+			   },
+			   "price": 285,
+			   "rate": 5,
+			   "oldPrices": [ 215,227,229,200,190,206,290,198,129,205,180,260 ]
+			   }]
+}
